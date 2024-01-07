@@ -1,0 +1,44 @@
+<html>
+            <head>
+                <title>Animation Demo</title>
+            <style>
+            div
+            {
+            border-color:red;
+            border-width:2px;
+            border-style:ridge;
+            width:100px;
+            height:100px;
+            }
+            </style>
+            <script>
+            function f()
+            {
+            
+            let d=document.getElementById("d");
+            let a=document.getElementById("txta").value;
+            let r=document.getElementById("txtr").value;
+            let g=document.getElementById("txtg").value;
+            let b=document.getElementById("txtb").value;
+            let clr="rgba(" + r + "," + g + "," + b + "," + a + ")";
+            d.style.backgroundColor=clr;
+            //alert(clr);
+            }
+            </script>
+            </head>
+            <body>
+            
+            <h1>Color Demo</h1>
+            A<input type="number" value="0" min="0" max="1" step="0.1" id="txta"/>
+            <br/>
+            R<input type="number" value="0"  min="0" max="255"  id="txtr"/>
+            <br/>
+            G<input type="number" value="0"  min="0" max="255"   id="txtg"/>
+            <br/>
+            B<input type="number" value="0"   min="0" max="255"   id="txtb"/>
+            <br/>
+            <div id="d"></div>
+            <input type="button" onclick="f()" value="Submit"/>
+            
+            </body>
+            </html>

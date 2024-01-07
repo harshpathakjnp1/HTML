@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Service | onlinekhana.com</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            background-color: black;
+            opacity: 50%;
+        }
+        #logo{
+            margin: 3px 6px;
+        }
+        #logo img{
+            height: 56px;
+            margin: 3px 6px;
+
+        }
+        #navbar ul{
+            display: flex;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        #navbar ul li{
+            
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        #navbar ul li a{
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-transform: none;
+        }
+
+        #navbar ul li a:hover{
+            color: black;
+            background-color: white;
+           
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            height: 635px;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        #home::before{
+           content: "";
+           position: absolute;
+            background: url('C:/Users/Harsh Vardhan/Desktop/bg1.jpg') no-repeat center center/cover;
+           
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+         
+        }
+        #home h1{
+            color: white;
+            text-align: center;
+        }
+        #home p{
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Bree Serif', serif;
+        }
+        .h-primary{
+            font-size: 3.8rem;
+            padding: 12px;
+        }
+        .h-secondary{
+            font-size: 2.5rem;
+            padding: 12px;
+        }
+        .btn{
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: brown;
+            color: white;
+            margin: 17px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #services{
+            margin: 34px;
+            display: flex;
+
+        }
+        #services .box{
+            border: 2px solid brown;
+            padding: 34px;
+            margin: 3px 6px;
+            border-radius: 28px;
+            background: #f2f2f2;
+        }
+        #services .box img{
+            height: 150px;
+            margin: auto;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar"> 
+        <div id="logo">
+            <img src="C:/Users/Harsh Vardhan/Desktop/img.jpg" alt="onlinekhana.com">
+        </div>
+        <ul>
+            <li class="item"> <a href="a">Home</a> </li>
+            <li class="item"> <a href="a">Service</a> </li>
+            <li class="item"> <a href="a">About Us</a> </li>
+            <li class="item"> <a href="a">Contact Us</a> </li>
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to onlinekhana.com</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sint culpa quam aspernatur dignissimos deleniti repellat explicabo omnis.</p>
+        <p>Lorem i sint culpa leniti repellat explicabo omnis.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+<h1 class="h-primary center"><center>Our Services</center></h1>
+<div id="services">
+    <div class="box">
+        <img src="C:/Users/Harsh Vardhan/Desktop/bg1.jpg" alt="">
+        <h2 class="h-secondary "><center>Food Odering</center></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod earum exercitationem repudiandae magni, eligendi magnam laborum error inventore dignissimos, repellat nemo natus ut dicta iste quo accusamus temporibus tempore beatae.</p>
+    </div>
+    <div class="box">
+        <img src="C:/Users/Harsh Vardhan/Desktop/bg1.jpg" alt="">
+        <h2 class="h-secondary "><center>Food Odering</center></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod earum exercitationem repudiandae magni, eligendi magnam laborum error inventore dignissimos, repellat nemo natus ut dicta iste quo accusamus temporibus tempore beatae.</p>
+    </div>
+    <div class="box">
+        <img src="C:/Users/Harsh Vardhan/Desktop/bg1.jpg" alt="">
+        <h2 class="h-secondary "><center>Food Odering</center></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod earum exercitationem repudiandae magni, eligendi magnam laborum error inventore dignissimos, repellat nemo natus ut dicta iste quo accusamus temporibus tempore beatae.</p>
+    </div>
+</div>
+    </section>
+</body>
+</html>
